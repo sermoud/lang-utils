@@ -69,7 +69,7 @@ public class UUIDValidator {
 				checksum += numericValue;
 			}
 		}
-    // NIL UUID
+        // NIL UUID
 		if ( checksum == 0 ) {
 			return false;
 		}
